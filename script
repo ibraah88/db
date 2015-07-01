@@ -1,0 +1,6 @@
+#!/bin/sh
+git init
+git add *
+git commit -a -m "commit message, to avoid being prompted interactively"
+git remote add origin git@github.com:isdiop/db.git
+git push -u origin master
